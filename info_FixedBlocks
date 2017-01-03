@@ -1,2 +1,53 @@
 # Here I will start documenting the fixed blocks in the mBlock IDE, as seen in mBlock on Android.
 # Any help is welcome, discussion is appreciated.
+# mBlock4Linux, like Linux is Open Source. Which is nothing if not with collaboration.
+
+# BEGIN group
+## When start
+
+# MOVE group
+# This group has 6 controls that can be programmed:
+## JOYSTICK
+## QUAD DIRECTION PAD
+## BUTTON
+## ON/OFF Switch
+## SLIDER for DC Motor 1
+## SLIDER for DC Motor 2
+
+
+## run <direction> at speed <int>
+### Directions:
+   # Forward
+   # Backward
+### Speeds:
+   # 0 - n (word, long word?)
+
+## turn <direction> at speed <int>
+### Direction: 
+   # left
+   # right
+### Speeds:
+   # 0 - n (word, long word?)
+
+## set dc motor <motor> at speed <int>
+### motors:
+   # M1
+   # M2
+### Speeds:
+   # 0 - n (word, long word?)
+   
+## set servo motor <port> slot <int> to degree <degree>
+### ports:
+   # 1-4 (or is that 0-3?)
+### slots:
+   # 1 & 2 (0 & 1?)
+### degrees: 
+   # like speed, it pops up a numberpad of sorts, and seemingly any integer is acceptable...
+   
+## stop moving
+
+# DISPLAY group
+# EVENT group
+# DETECT group
+# MATH group
+# CONTROLS group
